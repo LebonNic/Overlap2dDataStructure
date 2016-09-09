@@ -14,6 +14,7 @@ public class Shape {
      * Default constructor
      */
     public Shape() {
+        polygons = new Array<Array<Vector2>>();
     }
 
     /**

@@ -16,6 +16,16 @@ public class Composite {
      * Default constructor
      */
     public Composite() {
+        sImages = new Array<Image>();
+        sImage9patchs = new Array<NinePatchItem>();
+        sSpriterAnimations = new Array<SpriterAnimations>();
+        sSpriteAnimations = new Array<SpriteAnimations>();
+        sSpineAnimations = new Array<SpineAnimations>();
+        sParticleEffects = new Array<ParticleEffect>();
+        sLabels = new Array<Label>();
+        sComposites = new Array<CompositeItem>();
+        sLights = new Array<Light>();
+        layers = new Array<Layer>();
     }
 
     /**
@@ -26,7 +36,7 @@ public class Composite {
     /**
      * Nine patch images array
      */
-    public Array<NinePatchItem> sImage9patches;
+    public Array<NinePatchItem> sImage9patchs;
 
     /**
      * Array of Labels

@@ -13,6 +13,10 @@ public class Item {
      * Default constructor
      */
     public Item() {
+        tags = new Array<String>();
+        tint = new Array<Float>();
+        shape = new Shape();
+        physics = new Physics();
     }
 
     /**

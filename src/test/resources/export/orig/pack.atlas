@@ -1,0 +1,202 @@
+
+pack.png
+size: 1024,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+bluepanel
+  rotate: false
+  xy: 2, 104
+  size: 150, 150
+  split: 10, 10, 7, 7
+  pad: 0, 0, 0, 0
+  orig: 150, 150
+  offset: 0, 0
+  index: -1
+yellowboxCheckmark
+  rotate: false
+  xy: 104, 66
+  size: 38, 36
+  orig: 38, 36
+  offset: 0, 0
+  index: -1
+yellowboxCross
+  rotate: false
+  xy: 640, 124
+  size: 38, 36
+  orig: 38, 36
+  offset: 0, 0
+  index: -1
+yellowboxTick
+  rotate: false
+  xy: 691, 171
+  size: 36, 36
+  orig: 36, 36
+  offset: 0, 0
+  index: -1
+yellowbutton00
+  rotate: false
+  xy: 154, 205
+  size: 190, 49
+  orig: 190, 49
+  offset: 0, 0
+  index: -1
+yellowbutton01
+  rotate: false
+  xy: 154, 107
+  size: 190, 45
+  orig: 190, 45
+  offset: 0, 0
+  index: -1
+yellowbutton02
+  rotate: false
+  xy: 154, 154
+  size: 190, 49
+  orig: 190, 49
+  offset: 0, 0
+  index: -1
+yellowbutton03
+  rotate: false
+  xy: 538, 209
+  size: 190, 45
+  orig: 190, 45
+  offset: 0, 0
+  index: -1
+yellowbutton04
+  rotate: false
+  xy: 346, 205
+  size: 190, 49
+  orig: 190, 49
+  offset: 0, 0
+  index: -1
+yellowbutton05
+  rotate: false
+  xy: 346, 107
+  size: 190, 45
+  orig: 190, 45
+  offset: 0, 0
+  index: -1
+yellowbutton06
+  rotate: false
+  xy: 538, 158
+  size: 49, 49
+  split: 6, 6, 5, 9
+  orig: 49, 49
+  offset: 0, 0
+  index: -1
+yellowbutton07
+  rotate: false
+  xy: 538, 107
+  size: 49, 49
+  split: 5, 5, 2, 9
+  orig: 49, 49
+  offset: 0, 0
+  index: -1
+yellowbutton08
+  rotate: false
+  xy: 730, 209
+  size: 49, 45
+  split: 5, 5, 2, 5
+  orig: 49, 45
+  offset: 0, 0
+  index: -1
+yellowbutton09
+  rotate: false
+  xy: 589, 158
+  size: 49, 49
+  split: 4, 4, 4, 8
+  orig: 49, 49
+  offset: 0, 0
+  index: -1
+yellowbutton10
+  rotate: false
+  xy: 640, 162
+  size: 49, 45
+  split: 4, 4, 4, 4
+  orig: 49, 45
+  offset: 0, 0
+  index: -1
+yellowbutton11
+  rotate: false
+  xy: 589, 107
+  size: 49, 49
+  orig: 49, 49
+  offset: 0, 0
+  index: -1
+yellowbutton12
+  rotate: false
+  xy: 781, 209
+  size: 49, 45
+  orig: 49, 45
+  offset: 0, 0
+  index: -1
+yellowbutton13
+  rotate: false
+  xy: 346, 154
+  size: 190, 49
+  orig: 190, 49
+  offset: 0, 0
+  index: -1
+yellowcheckmark
+  rotate: false
+  xy: 911, 234
+  size: 21, 20
+  orig: 21, 20
+  offset: 0, 0
+  index: -1
+yellowcircle
+  rotate: false
+  xy: 832, 218
+  size: 36, 36
+  orig: 36, 36
+  offset: 0, 0
+  index: -1
+yellowcross
+  rotate: false
+  xy: 104, 2
+  size: 18, 18
+  orig: 18, 18
+  offset: 0, 0
+  index: -1
+yellowpanel
+  rotate: false
+  xy: 2, 2
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+yellowsliderDown
+  rotate: false
+  xy: 104, 22
+  size: 28, 42
+  orig: 28, 42
+  offset: 0, 0
+  index: -1
+yellowsliderLeft
+  rotate: false
+  xy: 729, 176
+  size: 39, 31
+  orig: 39, 31
+  offset: 0, 0
+  index: -1
+yellowsliderRight
+  rotate: false
+  xy: 870, 223
+  size: 39, 31
+  orig: 39, 31
+  offset: 0, 0
+  index: -1
+yellowsliderUp
+  rotate: false
+  xy: 770, 165
+  size: 28, 42
+  orig: 28, 42
+  offset: 0, 0
+  index: -1
+yellowtick
+  rotate: false
+  xy: 800, 190
+  size: 17, 17
+  orig: 17, 17
+  offset: 0, 0
+  index: -1

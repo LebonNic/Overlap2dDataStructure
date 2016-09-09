@@ -15,6 +15,10 @@ public class Project {
      * Default constructor
      */
     public Project() {
+        originalResolution = new Resolution();
+        resolutions = new Array<Resolution>();
+        scenes = new Array<Scene>();
+        libraryItems = new Array<CompositeItem>();
     }
 
     /**

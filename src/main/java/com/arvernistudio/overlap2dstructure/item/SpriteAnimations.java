@@ -14,6 +14,7 @@ public class SpriteAnimations extends Item {
      * Default constructor
      */
     public SpriteAnimations() {
+        frameRangeMap = new Array<FrameRange>();
     }
 
     /**

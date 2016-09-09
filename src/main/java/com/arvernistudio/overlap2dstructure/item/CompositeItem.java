@@ -13,6 +13,7 @@ public class CompositeItem extends Item {
      * Default constructor
      */
     public CompositeItem() {
+        composite = new Composite();
     }
 
     /**
