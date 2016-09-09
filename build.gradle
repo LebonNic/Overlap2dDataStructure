@@ -1,0 +1,23 @@
+buildscript {
+}
+
+plugins {
+}
+
+group 'com.arvernistudio.overlap2dstructure'
+version '1.0-SNAPSHOT'
+
+apply plugin: 'java'
+
+repositories {
+    mavenCentral()
+    jcenter()
+}
+
+ext{
+    gdxVersion = "1.9.3"
+}
+
+dependencies {
+    compile "com.badlogicgames.gdx:gdx:$gdxVersion"
+}
