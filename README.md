@@ -36,7 +36,7 @@ Project project = json.fromJson(Project.class, Gdx.files.local(
 	"project.dt"
 	));
 ```
-Of course, the path in the example needs to be changed to match your needs. 
+Of course, the path given in the example needs to be changed to match your needs. 
 
 ## Load an Overlap2d scene
 If you want to load a ***Scene*** data structure from a Json string exported by the Overlap2d editor, use this:
@@ -52,10 +52,10 @@ Same for the path here, it needs to be changed to suit your needs.
 This sections gives the details about the data structures you can load thanks to this project.
 
 ##Project
-Whenever it is exported, an Overlap2d project always produces a ***project.dt*** Json file. This one, as indicated by its name, contains information about your project. Once loaded, these data are accessible through the following structure:
+Whenever it is exported, an Overlap2d project always produces a ***project.dt*** Json file in the ***export*** folder of the project. This one, as indicated by its name, contains information about your project. Once loaded, these data are accessible through the following structure:
 
 ##Scene
-
+Each Overlap2d project contains at least one Scene. A scene basically represents a screen of your game. When you export a project from the editor, the data of your scenes are written in several Json files in a folder named ***scenes***. Once you have loaded a scene, thanks to the previous method, these data are accessible through the following data structure:
 
 ##Items
-
+Finally, each scenes contains a set of items (Image, NinePatch, Label, etc.). Theses items are represented by the following class hierarchy:
