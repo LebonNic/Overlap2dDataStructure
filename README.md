@@ -54,8 +54,14 @@ This sections gives the details about the data structures you can load thanks to
 ##Project
 Whenever it is exported, an Overlap2d project always produces a ***project.dt*** Json file in the ***export*** folder of the project. This one, as indicated by its name, contains information about your project. Once loaded, these data are accessible through the following structure:
 
+![Project data structure](diagrams/Project.png)
+
 ##Scene
 Each Overlap2d project contains at least one Scene. A scene basically represents a screen of your game. When you export a project from the editor, the data of your scenes are written in several Json files in a folder named ***scenes***. Once you have loaded a scene, thanks to the previous method, these data are accessible through the following data structure:
 
+![Scene data structure](diagrams/Scene.png)
+
 ##Items
 Finally, each scenes contains a set of items (Image, NinePatch, Label, etc.). Theses items are represented by the following class hierarchy:
+
+![Item class hierarchy](diagrams/Items.png)
