@@ -1,5 +1,5 @@
 # Overlap2dDataStructure
-Provide a generic data structure to load the Json files exported by the [Overlap2d](http://overlap2d.com/) editor in a Libgdx project.
+Provide a generic data structure to load the Json files exported by the [Overlap2d](http://overlap2d.com/) editor in a [Libgdx](https://libgdx.badlogicgames.com/) project.
 
 #Project setup
 The main objective of this project is to load a scene produced with the Overlap 2D editor for a Libgdx game. In this way, if you want to use this project with an existing Ligdx game, you just have to perform the following steps:
@@ -46,5 +46,16 @@ Json json = new Json();
                 "scenes/MainMenuScreen.dt"
         ));
 ```
-Same for the path here, it needs to be changed to suit your needs. 
+Same for the path here, it needs to be changed to suit your needs.
+
+#Data structures
+This sections gives the details about the data structures you can load thanks to this project.
+
+##Project
+Whenever it is exported, an Overlap2d project always produces a ***project.dt*** Json file. This one, as indicated by its name, contains information about your project. Once loaded, these data are accessible through the following structure:
+
+##Scene
+
+
+##Items
 
