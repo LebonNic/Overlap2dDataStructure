@@ -49,7 +49,7 @@ Json json = new Json();
 Same for the path here, it needs to be changed to suit your needs.
 
 #Data structures
-This sections gives the details about the data structures you can load thanks to this project.
+This section gives the details about the data structures you can load thanks to this project.
 
 ##Project
 Whenever it is exported, an Overlap2d project always produces a ***project.dt*** Json file in the ***export*** folder of the project. This one, as indicated by its name, contains information about your project. Once loaded, these data are accessible through the following structure:
