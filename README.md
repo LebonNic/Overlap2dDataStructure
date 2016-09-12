@@ -62,6 +62,6 @@ Each Overlap2d project contains at least one Scene. A scene basically represents
 ![Scene data structure](diagrams/Scene.png)
 
 ##Items
-Finally, each scenes contains a set of items (Image, NinePatch, Label, etc.). Theses items are represented by the following class hierarchy:
+Finally, each scene contains a set of items (Image, NinePatch, Label, etc.). Theses items are represented by the following class hierarchy:
 
 ![Item class hierarchy](diagrams/Items.png)
