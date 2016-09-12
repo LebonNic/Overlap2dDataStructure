@@ -1,5 +1,5 @@
 # Overlap2dDataStructure
-Provide a generic data structure to load the Json files exported by the [Overlap2d](http://overlap2d.com/) editor in a [Libgdx](https://libgdx.badlogicgames.com/) project.
+Provide generic data structures to load the Json files exported by the [Overlap2d](http://overlap2d.com/) editor in a [Libgdx](https://libgdx.badlogicgames.com/) project. The project is not tied to any engine or framework, it only defines some plain old Java objects that you can use to supply your own engine or library.
 
 #Project setup
 The main objective of this project is to load a scene produced with the Overlap 2D editor for a Libgdx game. In this way, if you want to use this project with an existing Ligdx game, you just have to perform the following steps:
