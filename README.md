@@ -1,5 +1,5 @@
 # Overlap2dDataStructure
-Provide a generic data structure to load the Json files exported by the [Overlap2d](http://overlap2d.com/) editor in a [Libgdx](https://libgdx.badlogicgames.com/) project.
+Provide generic data structures to load the Json files exported by the [Overlap2d](http://overlap2d.com/) editor in a [Libgdx](https://libgdx.badlogicgames.com/) project. The project is not tied to any engine or framework, it only defines some plain old Java objects that you can use to supply your own engine or library.
 
 #Project setup
 The main objective of this project is to load a scene produced with the Overlap 2D editor for a Libgdx game. In this way, if you want to use this project with an existing Ligdx game, you just have to perform the following steps:
@@ -49,7 +49,7 @@ Json json = new Json();
 Same for the path here, it needs to be changed to suit your needs.
 
 #Data structures
-This sections gives the details about the data structures you can load thanks to this project.
+This section gives the details about the data structures you can load thanks to this project.
 
 ##Project
 Whenever it is exported, an Overlap2d project always produces a ***project.dt*** Json file in the ***export*** folder of the project. This one, as indicated by its name, contains information about your project. Once loaded, these data are accessible through the following structure:
@@ -62,6 +62,6 @@ Each Overlap2d project contains at least one Scene. A scene basically represents
 ![Scene data structure](diagrams/Scene.png)
 
 ##Items
-Finally, each scenes contains a set of items (Image, NinePatch, Label, etc.). Theses items are represented by the following class hierarchy:
+Finally, each scene contains a set of items (Image, NinePatch, Label, etc.). Theses items are represented by the following class hierarchy:
 
 ![Item class hierarchy](diagrams/Items.png)
